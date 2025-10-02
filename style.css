@@ -1,0 +1,68 @@
+    h1 {
+        background-color: rgb(255, 235, 235);
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        text-align: center;
+          color: rgb(214, 116, 141);
+
+    }
+body {
+      background-color: rgb(255, 235, 235);
+}
+    a {
+        color: rgb(214, 116, 141);
+        font-size: medium;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 10px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+  div {
+    margin-top: 20px;
+    }
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgb(102, 102, 102);
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(214, 116, 141);
+    border-top: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  
+
+text-align: center;
+}
+about.html, contact.html, projects.html {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
