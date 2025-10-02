@@ -46,11 +46,12 @@ footer {
     border-top: 1px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     font-size: 14px;
+    text-emphasis-color: rgb(255, 255, 255);
   
 
 text-align: center;
 }
-about.html, contact.html, projects.html {
+about.html, contact.html, projects.html index.html {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
@@ -58,6 +59,7 @@ about.html, contact.html, projects.html {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .container {
@@ -65,4 +67,99 @@ about.html, contact.html, projects.html {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+index.html nav a {
+    margin: 0 15px;
+    font-size: 18px;
+}
+index.html nav a:hover {
+    color: rgb(255, 182, 193);
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+section#contact {
+    background-color: rgb(255, 235, 235);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid rgb(214, 116, 141);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+
+}
+section#contact h2 {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}   
+section#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#contact label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(214, 116, 141);
+}
+section#contact input, section#contact textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;  
+    margin-bottom: 20px;
+    border: 1px solid rgb(214, 116, 141);
+    border-radius: 5px;
+    font-size: 16px;
+}
+section#contact button {
+    background-color: rgb(214, 116, 141);
+    color: rgb(255, 255, 255);              
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+section#contact button:hover {
+    background-color: rgb(255, 182, 193);
+}
+.spacer {
+    height: 40px;
+}
+.align {
+    text-align: center;
+}
+form p {
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    margin-top: -10px;
+}
+form br {
+    line-height: 1.5;
+}
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(214, 116, 141);
+}
+about.html p {
+    font-size: 20px;
+    padding: 20px;
+
+}
+about.html p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+
 }
